@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-container {
+  height: 100vh;
+  background-image: url("/asset/outdoor.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat; */
+}
+
+.back-drop {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.36);
+  /* opacity: 36%; */
+}
+
+header {
+  /* border: solid white; */
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 120px;
+  height: 36px;
+}
+
+header .right-side {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header nav {
+ display: flex;
+ gap: 24px;
+
+}
+
+nav a {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.header-btn {
+  border-radius: 300px;
+  background: #E55F17;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+}  
+.hero {
+  padding: 100px 0 ;
+}
+.hero h2 {
+  text-align: center;
+  color:  #FFF;
+  font-family: "Be Vietnam Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 48px */
+  margin-bottom: 60px;
+}
+
+.date-select{
+  width: fit-content;
+  /* height: fit-content; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  /* background-color: #FFF; */
+  border-radius: 6px;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.10) 60.21%, rgba(255, 255, 255, 0.10) 68.65%, rgba(255, 255, 255, 0.10) 68.65%);
+  box-shadow: 0px 6px 24px -1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  gap: 24px;
+}
+
+.check-in {
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:  8px; */
+  padding:  4px 16px;
+  border-right: 1px solid #FFF;
+}
+
+.check-in .date {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.check-in .date i {
+  color: #FFF;
+}
+
+.check-in p {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+.btn button {
+  border-radius: 300px;
+  background: #E55F17;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.testing {
+  height: 558px;
+  width: 668px;
+}
+
+.testing img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  /* border:solid red ; */
+  padding: 40px 60px;
+  overflow-x: hidden;
+}
+
+.gallery .gallery-content {
+  display: flex;
+  gap: 16px;
+}
+
+.gallery .gallery-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.gallery-img {
+  min-width: 363px;
+  height: 336px;
+ margin-bottom: 16px;
+}
+
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  /* object-fit: cover; */
+}
+
+.What-we-offer {
+  padding: 40px 60px; 
+
+}
+
+.What-we-offer .title {
+  color: #000;
+  font-family: Geist;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.what-content .what-row {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.what-row > div {
+ /* border: solid red; */
+ display: flex;
+ flex-direction: column;
+ row-gap: 16px;
+}
+
+.what-row .icon-box {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  background:#FAEFE8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box img {
+  height: 24px;
+  width: 24px;
+}
+
+.what-row h2 {
+  color: #18181B;
+  font-family: Geist;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+.what-row P {
+  color: var(--dark-4, #2E2E2E);
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.5px;
+}
+
+.customer-review {
+  display: flex;
+  flex-direction: column;
+  /* border: solid red; */
+  background: #FFF4ED;
+  padding: 40px 60px;
+  align-items: center;
+  gap: 24px;
+}
+
+.customer-text {
+  align-items: center;
+  gap: 12px;
+}
+
+.customer-text p {
+  color: #343950;
+  font-family: Geist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.1px;
+  text-align: center;
+ }
+
+ .customer-text h3 {
+  text-align: center;
+  color:  #080E29;
+  font-family: Geist;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 46.8px */
+ }
+
+ .box-container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  /* border: 2px solid blue; */
+  gap: 16px;
+  border-radius: 6px;
+ }
+
+ .card {
+  padding: 24px 8px;
+  background-color: #FFF;
+  /* border: #E55F17 solid; */
+  width: 33%;
+ }
+
+ .card p{
+  width: fit-content;
+  font-size: 14px;
+  line-height: 20px;
+  /* margin-bottom: 16px; */
+ }
+
+ .customer-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  column-gap: 12px;
+  margin-top: 16px;
+ }
+
+ .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ }
+
+ .avatar img {
+  width: 100%;
+  height: 100%;
+ }
+
+ .name-jobname {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 2px;
+ }
+
+ .name-jobname h3 {
+  color:#18181B;
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+ }
+
+ .name-jobname p {
+  color: #505050;
+  font-family: Geist;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.1px;
+ }
+
+ .stars {
+  display: flex;
+  gap: 2px;
+ }
